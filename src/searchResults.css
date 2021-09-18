@@ -1,0 +1,93 @@
+.results {
+    padding: 20px;
+    margin: auto;
+}
+
+.result-title {
+    color: #056e7d;
+}
+
+.grid {
+    display: grid;
+    margin-top: 20px;
+}
+
+@media screen and (min-width: 600px) {
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(2, 50%);
+    }
+}
+
+.link {
+    text-decoration: none;
+    color: inherit;
+}
+
+.result {
+    display: flex;
+    height: 130px;
+    margin: 10px 10px 10px 0;
+    border-radius: 5px;
+    border: 1px solid #056e7d;
+}
+
+.result:hover {
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, .2);
+}
+
+.image-container {
+    flex: 1;
+    width: 120px;
+    min-width: 100px;
+    padding: 5px;
+    background-color: #056e7d;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+
+.result-image {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    border-radius: 5px;
+}
+
+.result-content {
+    padding: 10px 5px 10px 15px;
+    flex: 3;
+    box-sizing: border-box;
+}
+
+.result-name {
+    font-size: 16px;
+    font-weight: 600;
+    text-align: left;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    text-overflow: ellipsis;
+    word-break: break-word;
+}
+
+.result-text {
+    text-align: left;
+    margin-top: 5px;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+    text-overflow: ellipsis;
+    word-break: break-word;
+}
+
+.allergene-title {
+    color: #F54747;
+
+}
+
+.error {
+    color: red;
+    font-size: 20px;
+}

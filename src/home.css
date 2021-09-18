@@ -1,0 +1,35 @@
+.home {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    padding-top: 20px;
+    min-height: 100vh;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title {
+    font-size: 30px;
+    color: #056e7d;
+    margin-bottom: 20px;
+}
+
+.home-text {
+    margin: 80px auto 0 auto;
+    padding: 5px;
+    max-width: 600px;
+}
+
+.home-intro {
+    font-size: 22px;
+    color: #056e7d;
+    opacity: 0.8;
+}
+
+.home-guide {
+    font-size: 16px;
+    margin-top: 50px;
+    color: #056e7d;
+    opacity: 0.6;
+}

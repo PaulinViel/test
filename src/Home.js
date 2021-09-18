@@ -38,7 +38,7 @@ const Home = () => {
                 !searchResult && !error &&
                 <div className={"home-text"}>
                     <div className={"home-intro"}>Cherchez un produit vendu en france, et consultez les ingrédients et
-                        allergens, afin de savoir
+                        allergènes, afin de savoir
                         ce que vous mangez !
                     </div>
                     <div className={"home-guide"}>Utilisez la barre de recherche ci-dessus en tapant le nom du produit
